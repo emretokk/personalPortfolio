@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  height: 95vh;
+}
+.leftArea {
+  display: inline-block;
+  height: 95vh;
+  width: 70vw;
+  background-color: #19181a;
+}
+.rightArea {
+  display: inline-block;
+  height: 95vh;
+  width: 30vw;
+  background-color: #19181a;
+}
+.infoArea {
+  color: #fcfcfa;
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  width: 50rem;
+  margin-left: 5rem;
+}
+p.heyy {
+  display: flex;
+  margin: 3rem 0 0 2rem;
+}
+h1.emre {
+  display: flex;
+  margin: 0 0 0 1rem;
+}
+.codeArea {
+  display: flex;
+  height: 20rem;
+  width: 50rem;
+  background-color: #2d2a2e;
+  margin: 0 0 0 5rem;
+}
