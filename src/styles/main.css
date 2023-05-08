@@ -30,10 +30,74 @@ h1.emre {
   display: flex;
   margin: 0 0 0 1rem;
 }
+ul.icons {
+  margin: 0.3rem 0 0 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+.li-icon {
+  margin-right: 2.5rem;
+}
+.icon {
+  color: #fc9867;
+  font-size: 2rem;
+}
+.icon.github {
+  margin-left: 1rem;
+}
 .codeArea {
   display: flex;
-  height: 20rem;
+  height: 26rem;
   width: 50rem;
   background-color: #2d2a2e;
-  margin: 0 0 0 5rem;
+  margin: 0.5rem 0 0 5rem;
+  border-radius: 1.5rem;
+}
+ul.lineNumbers {
+  color: #4d4f53;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+div.straightLine {
+  background-color: #4d4f53;
+  height: 26rem;
+  width: 0.05rem;
+  margin-left: 1rem;
+}
+.codeZone {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: block;
+}
+ul.codeZone .line {
+  color: #fcfcfa;
+  margin: 0 0 0 1rem;
+  font-size: 1.5rem;
+}
+.line.hidden {
+  visibility: hidden;
+}
+.red {
+  color: #ff6188;
+}
+.yellow {
+  color: #ffd866;
+}
+.grey {
+  color: #4d4f53;
+}
+.blue {
+  color: #74dce8;
+}
+.green {
+  color: #a9dc76;
+}
+.orange {
+  color: #f09867;
 }
