@@ -5,17 +5,18 @@ main {
 a {
   text-decoration: none;
 }
+a:visited {
+  color: #9f8198;
+}
 .leftArea {
   display: inline-block;
   height: 95vh;
   width: 70vw;
-  background-color: #19181a;
 }
 .rightArea {
   display: inline-block;
   height: 95vh;
   width: 30vw;
-  background-color: #19181a;
 }
 .infoArea {
   color: #fcfcfa;
@@ -130,6 +131,9 @@ ul.codeZone .line {
   height: 2rem;
   margin: 1rem 0 1rem 1rem;
 }
+.notes-header {
+  margin-bottom: 0.5rem;
+}
 .myprojects-headline {
   display: inline;
   position: absolute;
@@ -143,4 +147,28 @@ ul.codeZone .line {
   width: 1.5rem;
   height: 1.5rem;
   margin: 1rem 1rem 1rem 0;
+}
+.notes-area {
+  height: fit-content;
+}
+.project {
+  margin: 0 1rem 1rem 1rem;
+}
+.h-project {
+  color: #9f8198;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.project-info {
+  color: #4d4f53;
+
+  font-size: 0.8rem;
+  margin: 0;
+}
+body {
+  background-image: url("../assets/sigma.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px) grayscale(0%);
 }
