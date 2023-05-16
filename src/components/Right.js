@@ -25,7 +25,7 @@ class Right extends Component {
                 by React and pure css.
               </p>
             </div>
-            <div className="project">
+            {/* <div className="project">
               <h3 className="h-project">
                 <a href="https://github.com/emretokk/rubikscube">
                   Rubik's Cube
@@ -56,6 +56,12 @@ class Right extends Component {
               <p className="project-info">
                 I learned the Javascript with this. Its completed except just a
                 few days boring days. I'll do them someday :P
+              </p>
+            </div> */}
+            <div className="project">
+              <h3 className="h-project">More will be added later</h3>
+              <p className="project-info">
+                If you wanna see my mini projects check my github
               </p>
             </div>
           </div>
